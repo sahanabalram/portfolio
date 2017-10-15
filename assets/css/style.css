@@ -1,0 +1,39 @@
+i.fa.fa-linkedin.fa-4x {
+    color: #007bb6;
+}
+
+i.fa.fa-github.fa-4x {
+    color: black;
+}
+
+.nav-wrapper {
+    background-color: #dcedc8;
+}
+a.brand-logo {
+    color: black;
+}
+
+img {
+    width: 250px;
+    margin-top: 10px;
+}
+
+#about-link, #skills-link, #portfolio-link {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1 {
+    font-weight: bolder;
+}
+body {
+    background-color: #d1c4e9;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+   

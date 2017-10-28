@@ -3,14 +3,14 @@ i.fa.fa-linkedin.fa-4x {
 }
 
 i.fa.fa-github.fa-4x {
-    color: black;
+    color: white;
 }
 
 .nav-wrapper {
-    background-color: #dcedc8;
+    background-color: black;
 }
 a.brand-logo {
-    color: black;
+    color: white;
 }
 
 img {
@@ -18,8 +18,8 @@ img {
     margin-top: 10px;
 }
 
-#about-link, #portfolio-link {
-    color: black;
+#about-link, #portfolio-link,#skills-link {
+    color: white;
     font-size: 20px;
     font-weight: bold;
 }
@@ -28,7 +28,7 @@ h1 {
     font-family: 'Bitter', serif;
 }
 body {
-    background-color: #d1c4e9;
+    background-image:url("https://i.pinimg.com/736x/78/8b/9a/788b9a615b7e442abbbdae4ab9c2bc9f.jpg");
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -37,4 +37,9 @@ body {
   main {
     flex: 1 0 auto;
   }
-   
+
+  a.waves-effect.waves-light.btn {
+    margin-left:10px;
+    margin-bottom: 10px;
+    color: black;
+}

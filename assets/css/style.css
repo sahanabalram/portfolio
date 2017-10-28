@@ -49,3 +49,7 @@ a.btn.tooltipped.grey.lighten-4 {
     margin-bottom: 10px;
     color: black;
 }
+
+footer.page-footer {
+    background-color: black;
+}

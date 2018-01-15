@@ -1,95 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title>Sahana Balram Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://use.fontawesome.com/62f4e174f3.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
+    <div class="page">
+        <div id="sidebar">
+            <div id="image"></div>
+        </div>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Sahana Balram</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li>
-                        <a href="index.html">About</a>
+                        <a href="#about" id="about-link">About</a>
                     </li>
                     <li>
-                        <a href="projects.html">Projects</a>
+                        <a href="#portfolio" id="portfolio-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills" id="skills-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/sahanabalram" target="_blank">
+                            <i class="fa fa-github fa-4x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/sahana-balram/" target="_blank">
+                            <i class="fa fa-linkedin fa-4x"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid text-center">
-        <div class="row content">
-            <div class="col-sm-2 sidenav">
-                    <h2>Recent Work</h2>
-                <p>
-                    <a href="#" target="_blank">Wack-A-Mole Game</a>
-                </p>
-                <p>
-                    <a href="#" target="_blank">Captain-Planet Game</a>
-                </p>
-                <p>
-                    <a href="#" target="_blank">Rock-Paper-Scissors Game</a>
-                </p>
-            </div>
-            <div class="col-sm-8 text-left">
-                <h1>Welcome To My Portfolio</h1>
-                <img class="img-responsive img-circle" src="assets/images/sahana.jpg" alt="sahana" />
-
-                <p>I am Sahana Balram and have a Master's degree from University of Western Sydeny, Australia in Information
-                    and Communication Technology. I was working as a Test Engineer back in Australia. I Have developed an
-                    interest in coding for sometime now.Proof of my work can be seen in the "Project" section of my webpage.</p>
-
-                <hr>
-                <h3>hello</h3>
-                <p>Lorem ipsum...</p>
-
-            </div>
-            <div class="col-sm-2 sidenav">
-                <div class="row">
-                    <p>
-                        <a href="mailto:mailsahanab@gmail.com?Subject=Hello%20again" target="_top">
-                            <i class="fa fa-envelope fa-3x"></i>
-                        </a>
-                    </p>
-                </div>
-                <div class="row">
-                        <h3><i class="fa fa-mobile fa-3x"></i>507-242-6231</h3>
-                </div>
-                <div class="row">
-                     <a href="https://github.com/sahanabalram" target="_blank">
-                            <i class="fa fa-github fa-3x"></i>
-                        </a>
-                </div>
-                <div class="row">
-                    <a href="https://www.linkedin.com/in/sahana-balram/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+        </nav>
+        <a name="about"></a>
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel #f5f5f5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2">
+                        <img src="assets/images/sahana.jpg" alt="" class="circle responsive-img">
+                        <!-- notice the "circle" class -->
+                    </div>
+                    <div class="col s10" id="about">
+                        <h1 class="center">About Me</h1>
+                        <span class="black-text">
+                            I am Sahana Balram and have a Master's degree from University of Western Sydeny, Australia in Information and Communication
+                            Technology. I was working as a Test Engineer back in Australia.Have developed an interest in
+                            coding for sometime now.Proof of my work can be seen in the "Portfolio" section of my webpage.
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <footer class="container-fluid text-center">
-        <p>© 2017 Sahana Balram</p>
-    </footer>
+        <!-- Skills -->
+        <a name="skills"></a>
+        <div class="conatiner" id="skills-button">
+            <h1 class="center-align">Skills</h1>
+            <h5 class="center-align">Hover over the buttons to checkout my skill level</h5>
 
+
+        </div>
+        <!-- Portfolio -->
+        <a name="protfolio"></a>
+        <div id="portfolio">
+            <h1 class="center">Portfolio</h1>
+            <div class="row">
+                <!-- portfolio1 cartogram -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/app.jpg">
+                        </div>
+                        <div class="card-content">
+                            <p>Web application developed using Google API's and Local Weather API</p>
+                            <ol>
+                                <li>FrameWork used: Materialize</li>
+                                <li>Firebase for user authentication</li>
+                            </ol>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://sahanabalram.github.io/cartogram/" target="_blank">Link to the Deployed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 2  Trivia Game -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/trivia-game.png">
+                        </div>
+                        <div class="card-content">
+                            <p>A trivia game</p>
+                            <p>Developed using:
+                                <br> HTML, CSS, JAVASCRIPT, JQUERY
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://sahanabalram.github.io/TriviaGame/" target="_blank">Link to the Deployed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 3 giphy -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/giphy.png">
+                        </div>
+                        <div class="card-content">
+                            <p>Web app developed using giphyAPI</p>
+
+                        </div>
+                        <div class="card-action">
+                            <a href="https://sahanabalram.github.io/giphyAPI/" target="_blank">Link to the Deployed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 4 eat-da-burger -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/eat-da-burger.png">
+                        </div>
+                        <div class="card-content">
+                            <p>Web App developed using Express, Express-Handlebars,MySQL as database</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://eat-da-burger-sb.herokuapp.com/" target="_blank">Link to the Deployed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 5 beatBot -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/app.png">
+                        </div>
+                        <div class="card-content">
+                            <p>Web App developed using the following:
+                                <br> Express, Express-Handlebars, Sequelize database, Bootstrap
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://beatbot-ucsd.herokuapp.com/" target="_blank">Link to the Deployed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 6 friendFinder -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/landing-page.png">
+                        </div>
+                        <div class="card-content">
+                            <p>Web App developed using Express</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://friend-finder-sb.herokuapp.com/" target="_blank">Link to the Deplyed site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio 7 bamazon -->
+                <div class="col s12 m4 l4">
+                    <div class="card card medium grey lighten-4">
+                        <div class="card-image">
+                            <img src="assets/images/bamazonCustomer.png">
+                            <!-- <span class="card-title">Card Title</span> -->
+                        </div>
+                        <div class="card-content">
+                            <p>A backend shopping app developed using MySQL and Node.js</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <footer class="page-footer">
+                <div class="footer-copyright">
+                    <div class="container white-text">
+                        © 2017 Sahana Balram
+                        <a class="white-text text-lighten-4 right" href="#!">
+                            <span>
+                                <i class="material-icons">email</i> mailsahanab@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </footer>
 </body>
 
 </html>

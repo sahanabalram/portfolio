@@ -12,3 +12,10 @@ img {
 .card.border-dark.mb-3 {
     margin-left: 15px;
 }
+
+img#main-image {
+    border: 6px solid #eee;
+}
+img#main-image:hover {
+    border: 6px solid #222;
+}

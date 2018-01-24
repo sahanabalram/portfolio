@@ -16,6 +16,19 @@ img {
 img#main-image {
     border: 6px solid #eee;
 }
+
 img#main-image:hover {
     border: 6px solid #222;
+}
+
+i.fa.fa-linkedin.fa-4x {
+    margin-left: 700px;
+}
+
+i.fa.fa-envelope.fa-4x {
+    color: black;
+}
+
+.container-fluid {
+    margin-top: 25px;
 }
